@@ -53,7 +53,7 @@ const ProjectTable = ({ projects, onEdit, onDelete }) => {
                       Edit
                     </button>
                     <button
-                      onClick={() => onDelete(project.id)}
+                      onClick={() => onDelete(project._id)}
                       className="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-2 rounded"
                     >
                       Delete

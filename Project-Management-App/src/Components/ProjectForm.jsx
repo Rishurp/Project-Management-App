@@ -15,7 +15,7 @@ const ProjectForm = ({ onAdd }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (formData.name && formData.client && formData.deadline) {
-      console.log(formData.deadline);
+     
       onAdd(formData);
       setFormData({ name: "", client: "", deadline: "" });
     }
